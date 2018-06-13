@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:cle.xcodeproj">
+      location = "self:/Users/iris/Documents/iOS-projects/cle/iCLE.xcodeproj">
    </FileRef>
 </Workspace>

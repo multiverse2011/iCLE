@@ -35,17 +35,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		033D580320BE70E300DE6106 /* cle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		033D580320BE70E300DE6106 /* iCLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		033D580620BE70E300DE6106 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		033D580820BE70E300DE6106 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		033D580B20BE70E300DE6106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		033D580D20BE70E400DE6106 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		033D581020BE70E400DE6106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		033D581220BE70E400DE6106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		033D581720BE70E400DE6106 /* cleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		033D581720BE70E400DE6106 /* iCLETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCLETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		033D581B20BE70E400DE6106 /* cleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cleTests.swift; sourceTree = "<group>"; };
 		033D581D20BE70E400DE6106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		033D582220BE70E400DE6106 /* cleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		033D582220BE70E400DE6106 /* iCLEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCLEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		033D582620BE70E400DE6106 /* cleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cleUITests.swift; sourceTree = "<group>"; };
 		033D582820BE70E400DE6106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03C6311920D1042600B0B050 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
@@ -89,9 +89,9 @@
 		033D580420BE70E300DE6106 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				033D580320BE70E300DE6106 /* cle.app */,
-				033D581720BE70E400DE6106 /* cleTests.xctest */,
-				033D582220BE70E400DE6106 /* cleUITests.xctest */,
+				033D580320BE70E300DE6106 /* iCLE.app */,
+				033D581720BE70E400DE6106 /* iCLETests.xctest */,
+				033D582220BE70E400DE6106 /* iCLEUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		033D580220BE70E300DE6106 /* cle */ = {
+		033D580220BE70E300DE6106 /* iCLE */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 033D582B20BE70E400DE6106 /* Build configuration list for PBXNativeTarget "cle" */;
+			buildConfigurationList = 033D582B20BE70E400DE6106 /* Build configuration list for PBXNativeTarget "iCLE" */;
 			buildPhases = (
 				033D57FF20BE70E300DE6106 /* Sources */,
 				033D580020BE70E300DE6106 /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = cle;
+			name = iCLE;
 			productName = cle;
-			productReference = 033D580320BE70E300DE6106 /* cle.app */;
+			productReference = 033D580320BE70E300DE6106 /* iCLE.app */;
 			productType = "com.apple.product-type.application";
 		};
-		033D581620BE70E400DE6106 /* cleTests */ = {
+		033D581620BE70E400DE6106 /* iCLETests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 033D582E20BE70E400DE6106 /* Build configuration list for PBXNativeTarget "cleTests" */;
+			buildConfigurationList = 033D582E20BE70E400DE6106 /* Build configuration list for PBXNativeTarget "iCLETests" */;
 			buildPhases = (
 				033D581320BE70E400DE6106 /* Sources */,
 				033D581420BE70E400DE6106 /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				033D581920BE70E400DE6106 /* PBXTargetDependency */,
 			);
-			name = cleTests;
+			name = iCLETests;
 			productName = cleTests;
-			productReference = 033D581720BE70E400DE6106 /* cleTests.xctest */;
+			productReference = 033D581720BE70E400DE6106 /* iCLETests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		033D582120BE70E400DE6106 /* cleUITests */ = {
+		033D582120BE70E400DE6106 /* iCLEUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 033D583120BE70E400DE6106 /* Build configuration list for PBXNativeTarget "cleUITests" */;
+			buildConfigurationList = 033D583120BE70E400DE6106 /* Build configuration list for PBXNativeTarget "iCLEUITests" */;
 			buildPhases = (
 				033D581E20BE70E400DE6106 /* Sources */,
 				033D581F20BE70E400DE6106 /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				033D582420BE70E400DE6106 /* PBXTargetDependency */,
 			);
-			name = cleUITests;
+			name = iCLEUITests;
 			productName = cleUITests;
-			productReference = 033D582220BE70E400DE6106 /* cleUITests.xctest */;
+			productReference = 033D582220BE70E400DE6106 /* iCLEUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 033D57FE20BE70E300DE6106 /* Build configuration list for PBXProject "cle" */;
+			buildConfigurationList = 033D57FE20BE70E300DE6106 /* Build configuration list for PBXProject "iCLE" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				033D580220BE70E300DE6106 /* cle */,
-				033D581620BE70E400DE6106 /* cleTests */,
-				033D582120BE70E400DE6106 /* cleUITests */,
+				033D580220BE70E300DE6106 /* iCLE */,
+				033D581620BE70E400DE6106 /* iCLETests */,
+				033D582120BE70E400DE6106 /* iCLEUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		033D581920BE70E400DE6106 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 033D580220BE70E300DE6106 /* cle */;
+			target = 033D580220BE70E300DE6106 /* iCLE */;
 			targetProxy = 033D581820BE70E400DE6106 /* PBXContainerItemProxy */;
 		};
 		033D582420BE70E400DE6106 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 033D580220BE70E300DE6106 /* cle */;
+			target = 033D580220BE70E300DE6106 /* iCLE */;
 			targetProxy = 033D582320BE70E400DE6106 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -482,7 +482,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cle.app/cle";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCLE.app/iCLE";
 			};
 			name = Debug;
 		};
@@ -502,7 +502,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cle.app/cle";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCLE.app/iCLE";
 			};
 			name = Release;
 		};
@@ -547,7 +547,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		033D57FE20BE70E300DE6106 /* Build configuration list for PBXProject "cle" */ = {
+		033D57FE20BE70E300DE6106 /* Build configuration list for PBXProject "iCLE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				033D582920BE70E400DE6106 /* Debug */,
@@ -556,7 +556,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		033D582B20BE70E400DE6106 /* Build configuration list for PBXNativeTarget "cle" */ = {
+		033D582B20BE70E400DE6106 /* Build configuration list for PBXNativeTarget "iCLE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				033D582C20BE70E400DE6106 /* Debug */,
@@ -565,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		033D582E20BE70E400DE6106 /* Build configuration list for PBXNativeTarget "cleTests" */ = {
+		033D582E20BE70E400DE6106 /* Build configuration list for PBXNativeTarget "iCLETests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				033D582F20BE70E400DE6106 /* Debug */,
@@ -574,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		033D583120BE70E400DE6106 /* Build configuration list for PBXNativeTarget "cleUITests" */ = {
+		033D583120BE70E400DE6106 /* Build configuration list for PBXNativeTarget "iCLEUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				033D583220BE70E400DE6106 /* Debug */,
