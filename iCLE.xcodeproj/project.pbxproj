@@ -107,7 +107,8 @@
 				033D581220BE70E400DE6106 /* Info.plist */,
 				03C6311920D1042600B0B050 /* Settings.bundle */,
 			);
-			path = cle;
+			name = cle;
+			path = iCLE;
 			sourceTree = "<group>";
 		};
 		033D581A20BE70E400DE6106 /* cleTests */ = {
@@ -116,7 +117,8 @@
 				033D581B20BE70E400DE6106 /* cleTests.swift */,
 				033D581D20BE70E400DE6106 /* Info.plist */,
 			);
-			path = cleTests;
+			name = cleTests;
+			path = iCLETests;
 			sourceTree = "<group>";
 		};
 		033D582520BE70E400DE6106 /* cleUITests */ = {
@@ -125,7 +127,8 @@
 				033D582620BE70E400DE6106 /* cleUITests.swift */,
 				033D582820BE70E400DE6106 /* Info.plist */,
 			);
-			path = cleUITests;
+			name = cleUITests;
+			path = iCLEUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -436,7 +439,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7C29DFFCT6;
-				INFOPLIST_FILE = cle/Info.plist;
+				INFOPLIST_FILE = iCLE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +457,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7C29DFFCT6;
-				INFOPLIST_FILE = cle/Info.plist;
+				INFOPLIST_FILE = iCLE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
